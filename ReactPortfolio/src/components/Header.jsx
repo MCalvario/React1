@@ -10,6 +10,8 @@ function Header() {
     <header style={{ background: "hotpink", justifyContent: "flex-end"}}
     className="header">
       <h1>Hi, I'm Mari!</h1>
+      <center>
+      <p><h2>Developer and Designer</h2></p></center>
     </header>
   );
 }
