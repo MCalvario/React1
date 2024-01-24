@@ -94,8 +94,8 @@ function Form() {
         />
         {/* TODO Add another input field with a value, name, type, and placeholder of "password" */}
         {/* TODO Add a `onChange` attribute with a value of `handleInputChange` */}
-        <button type="submit">
-          Submit
+        <button className= "btn" type="submit">
+          Send Message!
         </button>
       </form>
       {errorMessage && (

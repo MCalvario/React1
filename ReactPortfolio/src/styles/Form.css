@@ -11,3 +11,14 @@
     color: #f73b83;
     font-size: 3rem;
   }
+
+  .btn {
+    color: #f73b83; 
+    background-color: #f73b83;
+    font-size: 20px;
+    letter-spacing: 12px;
+    padding: 10px 10px 10px 10px;
+    line-height: 1;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+  }
