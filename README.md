@@ -18,8 +18,9 @@ will present you with text or icon links to my GitHub and LinkedIn profiles, and
 
 ## Live Site Application
 [Link to Live Site](https://app.netlify.com/sites/scintillating-gumption-4e4eb3/deploys/65b065771276b11f216efef8)<br>
+[Screenshot of application](![Alt text](ReactPortfolio/public/website.png)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3345bb4a-01fa-462f-b853-0686f4cce440/deploy-status)](https://app.netlify.com/sites/scintillating-gumption-4e4eb3/deploys?branch=ReactPortfolio)<br>
-[Screenshot of application]![Alt text](img/ProfessionalProfile.png)
+
 
 ## Credits
 Class Activities<br>
