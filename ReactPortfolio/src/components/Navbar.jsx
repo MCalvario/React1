@@ -83,13 +83,14 @@ function Navbar() {
     <nav style={{ background: "black", justifyContent: "flex-end"}}
     className="navbar">
       <ul>
-        <li onClick={() => scrollToSection(AboutMe)} className="link">About Me</li>
+        {/* <li onClick={() => scrollToSection(AboutMe)} className="link">About Me</li>
 
           <div ref={AboutMe} className="AboutMe">
             <h3>Services</h3>
-          </div>
+          </div> */}
+          <li>
           <a href="/About-Me">About Me</a>
-       {/* </li>  */} 
+        </li>
         <li>
           <a href="/">Portfolio</a>
         </li>

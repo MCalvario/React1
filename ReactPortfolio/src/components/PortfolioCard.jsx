@@ -1,24 +1,49 @@
 
 // TODO: Modifimport  "../Portfolio.css"y this function so that it accepts props from the parent component
-export default function PortfolioCard(props) {
-  const cardStyle = {
-    width: '18rem',
-  };
+// export default function PortfolioCard(props) {
+//   const cardStyle = {
+//     width: '18rem',
+//   };
+
+import '../styles/About.css';
+
+function PortfolioCard() {
+
+
 
   // Helper function that generates a random width for our placeholder images
-  const randomWidth = () => {
-    const number = Math.random() * (300 - 200) + 200;
-    return number.toString().split('.')[0];
-  };
+  // const randomWidth = () => {
+  //   const number = Math.random() * (300 - 200) + 200;
+  //   return number.toString().split('.')[0];
+  // };
 
   // TODO: Update the return statement to display the data we received as props
   return (
     <div className="container">
+
+<PortfolioCard style={{ background: "black", color: "silver", justifyContent: "flex-end"}}
+
+className="portfolioCard">
+
+<center>
+      <h1>Portfolio</h1>
+      </center>
+
+<img className="image1" src='/ProfessionalProfile.png' height="270" width="200" />
+<img className="image2" src='/SAFlavor.png' height="270" width="200" />
+<img className="image3" src='/Weather.png' height="270" width="200" />
+<img className="image4" src='/website.png' height="270" width="200" />
+<img className="image5" src='/20230709_071707.jpg' height="270" width="200" />
+<img className="image6" src='/20230709_071707.jpg' height="270" width="200" />
       
-      <div className="PortfolioCard" style={cardStyle}>
+      </PortfolioCard>
+      </div>
+  );
+}
+      {/* <div className="PortfolioCard" style={cardStyle}>
         <img
           className="card-img-top"
-          src={`ReactPortfolio/public/Portfolio.png${randomWidth()}`}
+          src={`/ProfessionalProfile.png${randomWidth()}`}
           alt="PortfolioCard cap"
         />
         <div className="card-body">
@@ -35,4 +60,6 @@ export default function PortfolioCard(props) {
       </div>
     </div>
   );
-}
+} */}
+
+export default PortfolioCard;
