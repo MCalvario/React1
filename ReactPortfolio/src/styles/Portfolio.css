@@ -1,9 +1,9 @@
-.navbar {
+.portfolio {
     background: black;
     height: 60px;
   }
   
-  .navbar a {
+  .portfolio a {
     color: silver;
     justify-content: right;
     font-size: 1.3rem;

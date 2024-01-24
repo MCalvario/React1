@@ -1,11 +1,14 @@
-import '../styles/Style.css'
+import '../styles/Style.css';
 import { useState } from 'react';
+
 
 
 // Here we import a helper function that will check if the email is valid
 import { checkPassword, validateEmail } from './../utils/helpers';
 
+
 function Form() {
+  
   // Create state variables for the fields in the form
   // We are also setting their initial values to an empty string
   const [email, setEmail] = useState('');
@@ -36,6 +39,7 @@ function Form() {
   const handleFormSubmit = (e) => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
+    
 
     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
     if (!validateEmail(email) || !userName) {

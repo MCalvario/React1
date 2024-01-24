@@ -5,9 +5,9 @@ function footer() {
   // TODO: Add a style attribute to footer and the h1 element
 
   return (
-    <footer style={{ background: "black", justifyContent: "flex-end"}}
+    <footer style={{ background: "black", color: "silver", justifyContent: "flex-end"}}
     className="footer">
-      <h1>Contact Me!</h1>
+      <h1>Contact Me</h1>
       <center>
       <p><h2>Send me a message!</h2></p></center>
       </footer>

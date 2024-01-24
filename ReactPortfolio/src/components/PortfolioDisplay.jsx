@@ -1,9 +1,7 @@
 import PortfolioCard from './PortfolioCard';
 
 const feline = {
-  name: 'M to the A. R. I!',
-  description: 'The coolest kat you will ever meet!',
-  id: "Me, myself, and I",
+  name: 'Professional Portfolio',
 };
 
 export default function PortfolioDisplay() {

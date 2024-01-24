@@ -1,82 +1,25 @@
-import React from "react";
-import Portfolio from "ProfessionalProfile.png";
 
-class About extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      About: [
-        {
-          id: "first-p-about",
-          content:
-            "Hello!"
-        },
-        {
-          id: "second-p-about",
-          content:
-            "My name is..."
-        },
-        {
-          id: "third-p-about",
-          content:
-            "M to the A R I."
-        }
-      ]
-    };
-  }
+import '../styles/About.css';
 
-  render() {
-    return (
-      <section id="about" className="about-mf sect-pt4 route">
-        <div className="container">
-          <div className="row">
-            <div className="col-sm-12">
-              <div className="box-shadow-full">
-                <div className="row">
-                  <div className="col-md-6">
-                    <div className="row">
-                      <div
-                        className="col-sm-6 col-md-5"
-                        style={{ margin: "0 auto" }}
-                      >
-                        <div
-                          className="about-img"
-                          style={{ textAlign: "center" }}
-                        >
-                          <img
-                            className="img-fluid rounded b-shadow-a"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="skill-mf">
-                     
-                    
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="about-me pt-4 pt-md-0">
-                      <div className="title-box-2">
-                        <h5 className="title-left">About Me</h5>
-                      </div>
-                      {this.state.About-Me.map(content => {
-                        return (
-                          <p className="lead" key={content.id}>
-                            {content.content}
-                          </p>
-                        );
-                      })}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    );
-  }
+
+function About() {
+  // TODO: Add a style attribute to footer and the h1 element
+
+
+  return (
+
+    <about style={{ background: "black", color: "silver", justifyContent: "flex-end"}}
+    className="about">
+
+      <center>
+      <h1>About Me</h1>
+      <p className="about">My name is Maribel Calvario and I love coding! <br></br>
+       I am passionate about web development and am looking forward to learning a lot more as I explore and research.<br></br>
+       In my free time, I love spending time with my family and of course, I love coding.<br></br>
+       Feel free to look around and send me a message!  :)</p>
+      </center>
+      </about>
+  );
 }
 
 export default About;

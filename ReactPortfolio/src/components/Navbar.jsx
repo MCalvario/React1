@@ -6,13 +6,12 @@ import '../styles/Navbar.css';
 function Navbar() {
   // TODO: Add a style attribute to `nav`
   return (
-    <nav
-    style={{ background: "black", justifyContent: "flex-end"}}
+    <nav style={{ background: "black", justifyContent: "flex-end"}}
     className="navbar">
-       <a href="/">About Me.</a>
-      <a href="/">Portfolio.</a>
-      <a href="/">Contact Me.</a>
-      <a href="/">Resume.</a>
+       <a href="/About-Me">About Me</a>
+      <a href="/">Portfolio</a>
+      <a href="/footer">Contact Me</a>
+      <a href="/">Resume</a>
     </nav>
   );
 }
