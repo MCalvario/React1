@@ -1,13 +1,13 @@
-.header {
-    background: #090909;
+
+.footer {
+    background: black;
     height: 200px;
   }
   
-  .header h1 {
+  .footer h1 {
     margin: 0;
-    padding-top: 75px;
+    padding-top: 100px;
     text-align: center;
     color: #f73b83;
     font-size: 3rem;
   }
-  

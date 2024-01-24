@@ -7,7 +7,7 @@ function Header() {
   // TODO: Add a style attribute to header and the h1 element
 
   return (
-    <header style={{ background: "hotpink", justifyContent: "flex-end"}}
+    <header style={{ background: "black", justifyContent: "flex-end"}}
     className="header">
       <h1>Hi, I'm Mari!</h1>
       <center>

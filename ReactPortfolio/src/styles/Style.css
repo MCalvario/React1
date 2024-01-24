@@ -1,0 +1,19 @@
+.form {
+    margin: 20px;
+  }
+  
+  .form input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    color: #f73b83;
+    background-color: black;
+  }
+
+  .placeholder {
+    color: #f73b83;    
+  }
+
+
+
