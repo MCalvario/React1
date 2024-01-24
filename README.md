@@ -17,7 +17,7 @@ To view my single-page application portfolio for web developer, load the portfol
 will present you with text or icon links to my GitHub and LinkedIn profiles, and my profile on a third platform (Stack Overflow, Twitter).
 
 ## Live Site Application
-[Link to Live Site](https://github.com/MCalvario/React1)<br>
+[Link to Live Site](https://app.netlify.com/sites/scintillating-gumption-4e4eb3/deploys/65b065771276b11f216efef8)<br>
 [Screenshot of application]![Alt text](img/ProfessionalProfile.png)
 
 ## Credits

@@ -1,5 +1,5 @@
 import React from "react";
-import Portfolio from "public/Portfolio.png";
+import Portfolio from "ProfessionalProfile.png";
 
 class About extends React.Component {
   constructor() {

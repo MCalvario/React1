@@ -17,7 +17,7 @@ export default function PortfolioCard(props) {
       <div className="PortfolioCard" style={cardStyle}>
         <img
           className="card-img-top"
-          src={`./ProfessionalProfile.png${randomWidth()}`}
+          src={`ReactPortfolio/public/Portfolio.png${randomWidth()}`}
           alt="PortfolioCard cap"
         />
         <div className="card-body">
