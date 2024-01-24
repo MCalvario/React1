@@ -18,8 +18,8 @@ function PortfolioCard() {
 <img className="image2" src='/SAFlavor.png' height="400" width="500" />
 <img className="image3" src='/Weather.png' height="400" width="500" />
 <img className="image4" src='/website.png' height="400" width="500" />
-<img className="image5" src='/20230709_071707.jpg' height="400" width="500" />
-<img className="image6" src='/20230709_071707.jpg' height="400" width="500" />
+<img className="image5" src='/Fitness.png' height="400" width="500" />
+<img className="image6" src='/mycalendar.png' height="400" width="500" />
 </center>
 
 </portfolioCard>
