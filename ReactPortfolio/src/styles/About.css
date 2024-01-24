@@ -1,33 +1,37 @@
-.about {
-    background: black;
-    height: 200px;
-    justifyContent: "flex-end";
-  }
+
   
   .about h1 {
     margin: 0;
-    padding-top: 75px;
-    padding-top: 100px;
+    padding-top: 275px;
+    padding-bottom: 30px;
     color: #f73b83;
     background-color: black;
     font-size: 3rem;
   }
 
+  .about p {
+    padding: 30px;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 100px;
+  }
+
   .container {
     color: black;
     background-color: black;
-    padding: 50px;
+    padding: 0px;
     background: black;
-    width: 100%;
   }  
  
-  .image {
-    border-radius: 50%;
+  .image1, .image2, .image3, .image4, .image5, .image6 {
+    border-radius: 5%;
     background-color: black;
     color: black;
+    padding: 50px;
   }
 
   img:hover {
-    box-shadow: 0 0 20px 5px rgb(255, 0, 106);
+    box-shadow: 0 0 20px 5px #f73b83;;
   }
   

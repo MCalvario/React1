@@ -4,8 +4,9 @@ import '../styles/About.css';
 function About() {
 
   return (
-    <div class="container">
+    <div className="container">
     <about style={{ background: "black", color: "silver", justifyContent: "flex-end"}}
+    
     className="about">
 
       <center>

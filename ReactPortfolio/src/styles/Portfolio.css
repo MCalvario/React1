@@ -1,13 +1,14 @@
-.portfolio {
-    background: black;
-    height: 60px;
-  }
-  
-  .portfolio a {
-    color: silver;
-    justify-content: right;
-    font-size: 1.3rem;
-    text-decoration: none;
-    margin: 5px;
-    line-height: 3;
-  }
+.portfolioCard {
+  background: black;
+  height: 0px;
+}
+
+.portfolioCard h1 {
+  margin: 0%;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #f73b83;
+  background-color: black;
+  font-size: 3rem;
+}

@@ -1,14 +1,15 @@
 .header {
     background: black;
-    height: 200px;
+    height: 0px;
   }
   
   .header h1 {
-    margin: 0;
-    padding-top: 75px;
+    margin: 0%;
+    padding-top: 2px;
     text-align: center;
     color: #f73b83;
     background-color: black;
     font-size: 3rem;
+    border: solid 20px;
   }
   

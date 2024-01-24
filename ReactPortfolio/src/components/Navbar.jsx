@@ -54,7 +54,7 @@ function App() {
 
 // Here we import the Navbar.css file to grant access to some additional classNames
 import '../styles/Navbar.css';
-import { useRef } from "react";
+// import { useRef } from "react";
 
 /*
 const Component = () => {
@@ -68,14 +68,14 @@ const Component = () => {
 
 function Navbar() {
 
-  const AboutMe = useRef(null);
+  // const AboutMe = useRef(null);
 
-  const scrollToSection = (elementRef) => {
-    window.scrollTo({
-      top: elementRef.current.offsetTop,
-      behavior: "smooth",
-    });
-  };
+  // const scrollToSection = (elementRef) => {
+  //   window.scrollTo({
+  //     top: elementRef.current.offsetTop,
+  //     behavior: "smooth",
+  //   });
+  // };
 
   // TODO: Add a style attribute to `nav`
   return (
