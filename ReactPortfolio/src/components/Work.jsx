@@ -6,10 +6,12 @@ import '../styles/Work.css';
 function Work() {
   // TODO: Add a style attribute to `nav`
   return (
+    <div className='container'>
     <work style={{ background: "black", color: "silver", justifyContent: "flex-end"}}
     className="work">
      <center><h1><p>Portfolio</p></h1></center> 
     </work>
+    </div>
 
     
   );

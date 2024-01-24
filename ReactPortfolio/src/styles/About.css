@@ -1,19 +1,33 @@
 .about {
     background: black;
     height: 200px;
+    justifyContent: "flex-end";
   }
   
   .about h1 {
     margin: 0;
     padding-top: 75px;
-    text-align: center;
+    padding-top: 100px;
     color: #f73b83;
     background-color: black;
     font-size: 3rem;
   }
 
-  .image {
+  .container {
     color: black;
     background-color: black;
+    padding: 50px;
+    background: black;
+    width: 100%;
+  }  
+ 
+  .image {
+    border-radius: 50%;
+    background-color: black;
+    color: black;
+  }
+
+  img:hover {
+    box-shadow: 0 0 20px 5px rgb(255, 0, 106);
   }
   
