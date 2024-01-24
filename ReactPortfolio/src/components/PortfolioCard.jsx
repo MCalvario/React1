@@ -9,7 +9,7 @@ function PortfolioCard() {
     
     className="portfolioCard">
 
-<center>
+      <center>
       <h1>Portfolio</h1>
       </center>
 

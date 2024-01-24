@@ -1,13 +1,39 @@
+body {
+  background: rgb(8, 8, 8);
+  color: white;
+}
 
 .footer {
     background: black;
-    height: 200px;
-  }
+    height: 300px;
+}
   
   .footer h1 {
     margin: 0;
-    padding-top: 100px;
+    padding-top: 140px;
     text-align: center;
     color: #f73b83;
     font-size: 3rem;
+  }
+
+  .singleCol {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 0px;
+    font-size: 20px;
+    letter-spacing: 12px;
+    padding: 0px 10px;
+    line-height: 1;  
+  }
+
+  .social-media-icons-white a {
+  color: #f73b83;
+  font-size: 1.5rem; 
+  position:center;
+  text-align: center;
+  text-shadow: 2px 2px 6px;
+  font-size: 20px;
+  letter-spacing: 12px;
+  padding: 0px 10px;
+  line-height: 1;
   }
