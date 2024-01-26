@@ -8,6 +8,10 @@ function About() {
     <about style={{ background: "black", color: "silver", justifyContent: "flex-end"}}
     
     className="about">
+    
+   
+    
+    
 
       <center>
       <h1>About Me</h1>

@@ -1,9 +1,9 @@
-.header {
+.Header {
     background: black;
     height: 0px;
   }
   
-  .header h1 {
+  .Header h1 {
     margin: 0%;
     padding-top: 2px;
     text-align: center;

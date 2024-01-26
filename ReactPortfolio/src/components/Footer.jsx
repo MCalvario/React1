@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // Here we import the Footer.css file to grant access to some additional classNames
 import '../styles/Footer.css';
 
-import { Container } from 'react-bootstrap'
+// import { Container } from 'react-bootstrap'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faFacebook, faGithub, faTwitter} from '@fortawesome/free-brands-svg-icons'
@@ -26,7 +26,7 @@ function footer() {
           <FontAwesomeIcon icon={faFacebook} />
         </a>
 
-        <a href="https://Github.com">
+        <a href="https://github.com/MCalvario/React1">
           <FontAwesomeIcon icon={faGithub} />
         </a>
 
@@ -34,18 +34,11 @@ function footer() {
           <FontAwesomeIcon icon={faTwitter} />
         </a>
         </div>
-        </center>
-
-
-     
-  
-  
+        </center> 
 
     </footer>
     </div>
   );
-
-
 }
 
 export default footer;

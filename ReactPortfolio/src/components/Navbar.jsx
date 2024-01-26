@@ -1,108 +1,55 @@
-/*import { useRef } from "react";
-import "./App.css";
-import ScrollToTop from "./components/ScrollToTop";
-
-function App() {
-  const AboutMe = useRef(null);
-  const Portfolio = useRef(null);
-  const contactMe= useRef(null);
-  const Resume= useRef(null);
-
-
-  const scrollToSection = (elementRef) => {
-    window.scrollTo({
-      top: elementRef.current.offsetTop,
-      behavior: "smooth",
-    });
-  };
-
-  return (
-    <div className="App">
-      <ScrollToTop />
-      <div className="hero">
-        <ul>
-          <li onClick={() => scrollToSection(AboutMe)} className="link">
-            About Me
-          </li>
-          <li onClick={() => scrollToSection(Portfolio)} className="link">
-            Portfolio
-          </li>
-          <li onClick={() => scrollToSection(ContactMe)} className="link">
-            Contact Me
-          </li>
-          <li onClick={() => scrollToSection(Resume)} className="link">
-            Resume
-          </li>
-        </ul>
-      </div>
-      <div ref={AboutMe} className="About Me">
-        <h3>About Me</h3>
-      </div>
-      <div ref={Portfolio} className="Portfolio">
-        <h3>Portfolio</h3>
-      </div>
-      <div ref={contactMe} className="contact Me">
-        <h3>Contact Me</h3>
-        <div ref={Resume} className="Resume">
-        <h3>Resume</h3>
-      </div>
-    </div>
-  );
-} */
-
-// navbar.jsx
-
-// Here we import the Navbar.css file to grant access to some additional classNames
 import '../styles/Navbar.css';
-// import { useRef } from "react";
 
-/*
-const Component = () => {
-  const myRef = useRef();
-  const handleClick = () => {
-    window.scrollTo(0, myRef.current.offsetTop)
-  }
-}
-*/
-// TODO: Create a styles object called "styles"
-
-function Navbar() {
-
-  // const AboutMe = useRef(null);
-
-  // const scrollToSection = (elementRef) => {
-  //   window.scrollTo({
-  //     top: elementRef.current.offsetTop,
-  //     behavior: "smooth",
-  //   });
-  // };
-
-  // TODO: Add a style attribute to `nav`
+function Navbar({ currentPage, handlePageChange }) {
   return (
     <div className="container">
-    <nav style={{ background: "black", justifyContent: "flex-end"}}
-    className="navbar">
-      <ul>
-        {/* <li onClick={() => scrollToSection(AboutMe)} className="link">About Me</li>
+    <nav className="Mari">
+      <a href="/" className='Mari'>
+        <p><h1>Hi, I'm Mari!</h1></p>
+        <p>Developer and Designer.</p>
+      </a>
+    
 
-          <div ref={AboutMe} className="AboutMe">
-            <h3>Services</h3>
-          </div> */}
-          <li>
-          <a href="/About-Me">About Me</a>
-        </li>
-        <li>
-          <a href="/">Portfolio</a>
-        </li>
-        <li>
-          <a href="/footer">Contact Me</a>
-        </li>
-        <li>
-          <a href="/">Resume</a>
-        </li>
-      </ul>
-    </nav>
-    </div>
+    <ul className="nav navbar">
+      <li className="nav-item">
+        <a
+          href="#About"
+          onClick={() => handlePageChange('About')}
+          //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
+
+          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+        >
+          About Me
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#Portfolio"
+          onClick={() => handlePageChange('Portfolio')}
+          //  TODO: Add a comment explaining what this logic is doing
+
+          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+        >
+          Portfolio
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#Footer"
+          onClick={() => handlePageChange('Footer')}
+          //  TODO: Add a comment explaining what this logic is doing
+
+          className={currentPage === 'Footer' ? 'nav-link active' : 'nav-link'}
+        >
+          Contact Me
+        </a>
+      </li>
+      <li className="nav-item">
+        
+      </li>
+    </ul>
+     </nav>
+     </div>
   );
 }
 

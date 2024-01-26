@@ -11,7 +11,7 @@ function Header() {
 
     <header style={{ background: "black", color: "silver", justifyContent: "flex-end"}}
     
-    className="header">
+    className="Header">
 
       <h1>Hi, I'm Mari!</h1>
       
