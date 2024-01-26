@@ -4,10 +4,7 @@ function Navbar({ currentPage, handlePageChange }) {
   return (
     <div className="container">
     <nav className="Mari">
-      <a href="/" className='Mari'>
-        <p><h1>Hi, I'm Mari!</h1></p>
-        <p>Developer and Designer.</p>
-      </a>
+    
     
 
     <ul className="nav navbar">
@@ -22,7 +19,7 @@ function Navbar({ currentPage, handlePageChange }) {
           About Me
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav1 nav1-item">
         <a
           href="#Portfolio"
           onClick={() => handlePageChange('Portfolio')}
@@ -33,7 +30,7 @@ function Navbar({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav2 nav2-item">
         <a
           href="#Footer"
           onClick={() => handlePageChange('Footer')}
@@ -44,10 +41,26 @@ function Navbar({ currentPage, handlePageChange }) {
           Contact Me
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav3 nav3-item">
+      <a
+          href="#Resume"
+          onClick={() => handlePageChange('Resume')}
+          //  TODO: Add a comment explaining what this logic is doing
+
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
+        </a>
         
       </li>
     </ul>
+
+    
+
+      <h1>Hi, I'm Mari!</h1>
+      
+      <center>
+      <p><h2>Developer and Designer.</h2></p></center>
      </nav>
      </div>
   );

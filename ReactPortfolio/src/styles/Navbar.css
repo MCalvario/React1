@@ -43,7 +43,8 @@ body {
   list-style-type: none;
 }
 
-.navbar, {
+.navbar {
+  padding: 20px;
     background: black;
     color: silver;
     display: flex;
@@ -52,13 +53,13 @@ body {
 
 
   
-  .nav ul{
-    padding: 0;
+  .nav ul {
+    padding: 20;
     margin: 0;
     list-style-type: none;
   }
   
-  .navbar a{
+  .navbar a {
     color: silver;
     justify-content: right;
     font-size: 1.3rem;
@@ -66,6 +67,8 @@ body {
     margin: 5px;
     line-height: px;
     list-style-type: none;
+    padding: 30px;
+
   }
 
   
@@ -75,7 +78,8 @@ body {
 
   }
 
-  .Mari  {
+  .Mari {
+    height: 300px;
     font-size: 2rem;
     text-align: center;
     color: silver;
@@ -91,8 +95,10 @@ body {
     font-size: 3rem;
     text-decoration: none;
     list-style-type: none;
+    margin: 2%;
+
+    
   }
-  
  
 
   a:hover { color: rgb(255, 0, 106); }
